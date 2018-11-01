@@ -3,7 +3,7 @@ layout: post
 title:  "The Numbers Behind Drake"
 tags:
   - music
-hero: /content/2018-10-31-the-numbers-behind-drake/drake.jpeg
+hero: /content/2018-10-31-the-numbers-behind-drake/drake.jpg
 overlay: purple
 published: true
 
