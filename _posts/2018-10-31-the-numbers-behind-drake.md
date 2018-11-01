@@ -166,8 +166,8 @@ For now, I want to keep things simple and stick to an [OLS linear regression](ht
 |                          | Coefficient | Standard Error | T-Statistic | P Value |
 |--------------------------|:-----------:|:--------------:|:-----------:|:-------:|
 | **Intercept**            |     66.8    |       3.0      |     22.4    | < 2e-16 |
-| **Danceability**         |     10.1    |       2.9      |     3.5     |  7.5e-4 |
-| **Lexical Diversity**    |    -13.2    |       3.3      |     -4.0    |  1.1e-4 |
+| **Danceability**         |     **10.1**    |       **2.9**      |     **3.5**     |  **7.5e-4** |
+| **Lexical Diversity**    |    **-13.2**    |       **3.3**      |     **-4.0**    |  **1.1e-4** |
 | **Scorpion**             |     14.8    |       1.8      |     8.4     | 1.2e-13 |
 | **More Life**            |     3.8     |       1.9      |     2.0     |   .043  |
 | **Views**                |     3.4     |       1.8      |     1.8     |   .076  |
