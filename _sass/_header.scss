@@ -1,0 +1,84 @@
+// Header
+//-------------------------------
+
+header {
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: $base-font-weight-bold;
+    color: $link-color;
+
+    .logosvg {
+    	  height: 2.7rem;
+    }
+}
+
+.menu {
+    float: left;
+
+	  ul {
+	    list-style-type: none;
+	    margin-bottom: 0rem;
+	    padding: 0rem;
+	  }
+	  li {
+	    display: inline-block;
+	    margin-right: 1rem;
+	      &:last-child {
+	        margin-right: 0px;
+	      }
+        a {
+          color: $text-color-light;
+    	    font-size: $base-font-size;
+    	    font-weight: $base-font-weight;
+    	    display: block;
+          height: 2rem; // reset
+          .smaller {
+            font-size: 0.85em;
+          }
+        }
+	  }
+}
+
+// Social icons
+.social {
+    float: right;
+     margin-top: 0.25rem;
+    ul {
+      list-style-type: none;
+      margin-bottom: 0rem;
+      padding: 0rem;
+    }
+    li {
+      display: inline-block;
+    }
+    li a {
+      display: block;
+      color: $text-color;
+      text-align: center;
+      font-size: 1.5rem;
+      width: 2.5rem;
+  }
+}
+
+@media (max-width: 60rem) {
+    header {
+        margin-bottom: 2rem;
+    }
+    .menu,
+    .social {
+        @include centered-block();
+    }
+    // fake it till you make it
+    .logo {
+      margin-top: 5rem;
+      .logosvg {
+        display: block;
+        margin: -9rem auto 5rem auto;
+        height: 3rem;
+      }
+    }
+}

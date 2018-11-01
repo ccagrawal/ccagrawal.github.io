@@ -1,0 +1,16 @@
+---
+layout: default
+title: "Blog"
+---
+
+{% for post in paginator.posts %}
+
+	{% include blog.html %}
+
+{% endfor %}
+
+{% if paginator.posts.size > 5 %}
+
+	{% include post/pagination.html %}
+
+{% endif %}
