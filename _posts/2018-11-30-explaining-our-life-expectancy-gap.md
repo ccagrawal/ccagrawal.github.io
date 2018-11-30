@@ -5,7 +5,7 @@ tags:
   - healthcare
 hero: /content/2018-11-30-explaining-our-life-expectancy-gap/life_expectancy.png
 overlay: blue
-published: false
+published: true
 
 ---
 The U.S. spends more on health care than any other [OECD nation](https://en.wikipedia.org/wiki/OECD) but ranks among the lowest in life expectancy:
